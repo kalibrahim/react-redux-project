@@ -15,6 +15,7 @@ const App = () => {
           avatar={faker.image.avatar()}
         />
       </ApprovalCard>
+
       <ApprovalCard>
         <CommentDetail
           author="Alex"
@@ -23,6 +24,7 @@ const App = () => {
           avatar={faker.image.avatar()}
         />
       </ApprovalCard>
+
       <ApprovalCard>
         <CommentDetail
           author="Abdul"
