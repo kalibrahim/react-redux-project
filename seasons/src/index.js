@@ -11,7 +11,7 @@ class App extends React.Component {
     window.navigator.geolocation.getCurrentPosition(
       position => {
           // we called setState!
-          this.setState({ lat: position.coords.latitude})
+          this.setState({ lat: position.coords.latitude});
 
           //Bad practice
           //this.state.lat = position.coords.latitude
